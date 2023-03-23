@@ -1,1 +1,10 @@
+<<<<<<< HEAD
 sd
+=======
+#!/usr/bin/env bash
+# Installing nginx web server
+sudo apt update && upgrade
+sudo apt install nginx -y 
+echo "Holberton School" | sudo tee /var/www/html/index.html
+sudo service nginx start
+>>>>>>> 772503382bb67a7f135d60e998f4410b7fafaa85
